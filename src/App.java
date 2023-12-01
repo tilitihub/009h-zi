@@ -10,10 +10,10 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Controller cont = new Controller();
+        Controller controller = new Controller();
 
-        cont.start();
-        cont.stop();
-        cont.restart();
+        controller.start();
+        controller.stop();
+        controller.restart();
     }
 }
